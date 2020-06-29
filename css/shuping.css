@@ -1,0 +1,76 @@
+.middle{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.shuping_title{
+    font-size: 20px;
+    font-weight: bold;
+}
+.book_shuping{
+    margin-top: 20px;
+}
+.shuping{
+    box-shadow:0 0 3px grey;
+    font-size: 14px;
+    margin: 10px 10px 30px 0px;
+    border-radius: 6px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+}
+.shuping .yonghu{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.shuping .yonghu img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 3px;
+}
+.shuping .yonghu .yonghu_book{
+    color: gray;
+    margin-right: 10px;
+}
+.shuping .yonghu .yonghu_name{
+    margin-left: 10px;
+    font-size: 18px;
+    color: rgba(255, 94, 0, 0.76);
+}
+.shuping .yonghu .yonghu_riqi{
+    margin-left: 20px;
+    font-size: 12px;
+}
+.shuping_text{
+    font-size: 14px;
+    margin: 0px 10px 20px 10px;
+    line-height: 21px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 5;
+    overflow: hidden;
+}
+.book_img{
+    flex: 0 0 130px;
+    width: 130px;
+    height: 180px;
+    margin: 10px;
+}
+.xiangqing{
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    margin-left: -25px;
+    margin-bottom: 10px;
+}
+.xiangqing button{
+    border-radius: 5px;
+    background-color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    width: 100px;
+    height: 40px;
+    border: none;
+    box-shadow: 0 0 2px gray;
+}

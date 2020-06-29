@@ -1,0 +1,129 @@
+.middle{
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.left{
+    flex: 4;
+    margin-top: 10px;
+    box-shadow: 0 0 2px gray;
+    margin-right: 5px;
+}
+.right{
+    flex: 2;
+    margin-left: 50px;
+}
+
+.yonghu{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.yonghu img{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin: 3px;
+}
+.yonghu .yonghu_book{
+    color: gray;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.yonghu .yonghu_name{
+    margin-left: 10px;
+    font-size: 18px;
+    color: rgba(255, 94, 0, 0.76);
+}
+.yonghu .yonghu_riqi{
+    margin-left: 20px;
+    font-size: 12px;
+}
+.shuping_text{
+    font-size: 14px;
+    margin: 0px 10px 10px 10px;
+    padding-top: 20px;
+}
+
+.right .book_title{
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #37a;
+    cursor: pointer;
+}
+.right .book_title:hover{
+    color: #FFFFFF;
+    text-decoration: none;
+    background: #37a;
+
+}
+.right img{
+    width: 150px;
+    height: 210px;
+    margin-bottom: 10px;
+}
+
+pre{
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+.feed{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.heart {
+    background: url(../image/web_heart_animation.png);
+    background-position: left;
+    background-repeat: no-repeat;
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+    background-size:2900%;
+}
+.heart:hover, .heart:focus{
+background-position: right;
+}
+
+@-webkit-keyframes heartBlast {
+0% {
+    background-position: left;
+}
+100% {
+    background-position: right;
+}
+}
+
+@keyframes heartBlast {
+    0% {
+    background-position: left;
+}
+100% {
+    background-position: right;
+}
+}
+
+.heartAnimation {
+display: inline-block;
+-webkit-animation-name: heartBlast;
+animation-name: heartBlast;
+-webkit-animation-duration: .8s;
+animation-duration: .8s;
+-webkit-animation-iteration-count: 1;
+animation-iteration-count: 1;
+-webkit-animation-timing-function: steps(28);
+animation-timing-function: steps(28);
+background-position: right;
+}
+
+.likeCount{
+    font-family: 'Georgia', Times, Times New Roman, serif; 
+    transform: translateY(-30px);
+    font-size: 25px;
+    color: #999999
+}

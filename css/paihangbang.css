@@ -1,0 +1,89 @@
+.middle{
+    width: 60%;
+    margin: 0 auto;
+}
+.container{
+    display: flex;
+}
+.paihangbang{
+    flex: 4;
+}
+.paihangbang_title{
+    font-size: 23px;
+    font-weight: 600;
+}
+.book{
+    padding: 10px 0;
+    display: flex;
+    border-bottom: 1px dashed rgb(218, 218, 218);
+}
+.book img{
+    width: 170px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.book .biaoti{
+    font-size: 17px;
+    cursor: pointer;
+}
+.book .pingying{
+    font-size: 12px;
+    color: rgb(226, 147, 21);
+}
+.book .zuozhe{
+    display: flex;
+}
+.book .name{
+    font-size: 15px;
+    margin-right: 10px;
+}
+.book .chubanshe{
+    font-size: 15px;
+}
+.book .riqi,.book .jiage{
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.4);
+}
+.book .jianjie{
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 4;
+    overflow: hidden;
+    margin-top: 10px;
+    color: #666;
+    font-size: 16px;
+}
+
+
+.tuijian{
+    flex: 2;
+}
+.tuijian_title{
+    font-size: 23px;
+    font-weight: 600;
+}
+.tuijian_books{
+    display: flex;
+    flex-wrap: wrap;
+}
+.tuijian_book{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    width: 100px;
+}
+.tuijian_book img{
+    margin: 5px;
+    width: 100px;
+}
+.tuijian_book .bookname{
+    font-size: 14px;
+    color: #37a;
+    cursor: pointer;
+}
+.tuijian_book .bookname:hover{
+    background-color: #3377aa;
+    color: white;
+}

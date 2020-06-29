@@ -1,0 +1,311 @@
+.yonghu_message{
+    width: 60%;
+    height: 200px;
+    background-color: #f8f8f8;
+    box-shadow: 0 0 5px grey;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+.yonghu_message>div{
+    display: flex;
+    flex-direction: row;
+}
+.touxiang,.touxiang img{
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+.yonghu_jieshao{
+    margin-left: 40px;
+}
+.yonghu_jieshao .yonghuming{
+    font-size: 26px;
+    font-weight: bold;
+    color: #494949;
+}
+.yonghu_jieshao .jianjie{
+    width: 300px;
+    height: 65px;
+}
+.guanggao{
+    overflow: hidden;
+}
+.guanggao,.guanggao img{
+    width: 300px;
+    height: 150px;
+    margin-right: 50px;
+}
+
+.yonghu_message2{
+    width: 60%;
+    height: 200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.yonghu_other{
+    margin-top: 400px;
+    width: 300px;
+    height: 500px;
+    background-color: #fdfdfd;
+    box-shadow: 0 0 5px grey;
+    border-radius: 5px;
+    font-size: 17px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+.yonghu_other .neirong{
+    width: 100%;
+    display: flex;
+    justify-content: start;
+    margin-top: 10px;
+}
+.yonghu_other .neirong_title{
+    font-size: 17px;
+    margin-right: 30px;
+    margin-left: 20px;
+}
+.xiangxi{
+    position: absolute;
+    top: 300px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tuijian_title{
+    position: absolute;
+    top: 300px;
+    left: 735px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.tuijian{
+    margin-top: 400px;
+    width: 800px;
+    height: 500px;
+    background-color: #fdfdfd;
+    box-shadow: 0 0 5px grey;
+    border-radius: 5px;
+}
+.books{
+    display: flex;
+    flex-wrap: wrap;
+}
+.book{
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.book img{
+    height: 160px;
+    width: 120px;
+}
+
+.text_title2{
+    position: relative;
+    text-decoration: none;
+    color: rgba(0,0,0,0.4);
+    transition: color .3s ease;
+}
+.text_title2::after {
+  --scale: 0;
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 100%;
+  height: 2px;
+  background: #4c81c9;
+  -webkit-transform: scaleX(var(--scale));
+          transform: scaleX(var(--scale));
+  -webkit-transform-origin: var(--x) 50%;
+          transform-origin: var(--x) 50%;
+  transition: -webkit-transform 0.3s cubic-bezier(0.535, 0.05, 0.355, 1);
+  transition: transform 0.3s cubic-bezier(0.535, 0.05, 0.355, 1);
+  transition: transform 0.3s cubic-bezier(0.535, 0.05, 0.355, 1), -webkit-transform 0.3s cubic-bezier(0.535, 0.05, 0.355, 1);
+}
+.text_title2:hover {
+  color: #4c81c9;
+}
+.text_title2:hover::after {
+  --scale: 1;
+}
+
+
+/*左右按钮的属性设置*/
+.lr-tab .btn{
+    position: absolute;
+    top: 155px;
+    width: 41px;
+    height: 69px;
+    background: url("/image/icon-slides.png");
+ 
+}
+.lr-tab .left{
+    left: 1187px;
+    background-position-x: -83px;
+}
+.lr-tab .right{
+    right: 434px;
+    background-position-x: -125px;
+}
+/*左右按钮触碰事件*/
+.lr-tab .left:hover{
+    background-position-x: 0px;
+}
+.lr-tab .right:hover{
+    background-position-x: -41px;
+}
+/*圆形按钮属性设定*/
+.tab-btn{
+    position: absolute;
+    right: 510px;
+    bottom: 20px;
+    width: 120px;
+    height: 30px;
+    top: 275px;
+}
+.tab-btn .btn{
+    float: left;
+    width: 6px;
+    height: 6px;
+    background: #868686;
+    border: 2px solid #c3c3c3;/*边框*/
+    margin-left: 10px;
+    border-radius: 50%;
+ }
+/*圆形按钮触碰事件*/
+.tab-btn .btn:hover{
+    background: #e4e4e4;
+    border-color:#7f7f7f;
+}
+.tab-btn .active{
+    background: #e4e4e4;
+    border-color:#7f7f7f;
+}
+
+.submit{
+    margin-top: 30px;
+    height: 40px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+.submit button{
+    height: 40px;
+    width: 150px;
+}
+.submit button{
+    background: linear-gradient(to left top, #ffffff 50%, #ffffff 50%);
+    border-style: none;
+    color:grey;
+    font-size: 15px;
+    letter-spacing: 3px;
+    font-family: 'Lato';
+    font-weight: 600;
+    outline: none;
+    cursor: pointer;
+    position: relative;
+    padding: 0px;
+    overflow: hidden;
+    transition: all .5s;
+    box-shadow: 0px 1px 2px rgba(0,0,0,.2);
+}
+.submit button span{
+    position: absolute;
+    display: block;
+}
+.submit button span:nth-child(1){
+    height: 3px;
+    width:200px;
+    top:0px;
+    left:-200px;
+    background: linear-gradient(to right, rgba(0,0,0,0), #f6e58d);
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+    animation: span1 2s linear infinite;
+    animation-delay: 1s;
+}
+
+@keyframes span1{
+    0%{
+        left:-200px
+    }
+    100%{
+        left:200px;
+    }
+}
+.submit button span:nth-child(2){
+    height: 70px;
+    width: 3px;
+    top:-70px;
+    right:0px;
+    background: linear-gradient(to bottom, rgba(0,0,0,0), #f6e58d);
+    border-bottom-left-radius: 1px;
+    border-bottom-right-radius: 1px;
+    animation: span2 2s linear infinite;
+    animation-delay: 2s;
+}
+@keyframes span2{
+    0%{
+        top:-70px;
+    }
+    100%{
+        top:70px;
+    }
+}
+.submit button span:nth-child(3){
+    height:3px;
+    width:200px;
+    right:-200px;
+    bottom: 0px;
+    background: linear-gradient(to left, rgba(0,0,0,0), #f6e58d);
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+    animation: span3 2s linear infinite;
+    animation-delay: 3s;
+}
+@keyframes span3{
+    0%{
+        right:-200px;
+    }
+    100%{
+        right: 200px;
+    }
+}
+
+.submit button span:nth-child(4){
+    height:70px;
+    width:3px;
+    bottom:-70px;
+    left:0px;
+    background: linear-gradient(to top, rgba(0,0,0,0), #f6e58d);
+    border-top-right-radius: 1px;
+    border-top-left-radius: 1px;
+    animation: span4 2s linear infinite;
+    animation-delay: 4s;
+}
+@keyframes span4{
+    0%{
+        bottom: -70px;
+    }
+    100%{
+        bottom:70px;
+    }
+}
+
+.submit button:hover{
+    transition: all .5s;
+    transform: rotate(-3deg) scale(1.1);
+    box-shadow: 0px 3px 5px rgba(0,0,0,.4);
+}
