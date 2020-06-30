@@ -1,6 +1,8 @@
 body,html{
     width: 100%;
     height: 100%;
+
+    
 }
 
 
@@ -48,9 +50,9 @@ body{
 #lotit{
     font-size: 28px;
     display: block;
-    margin-top:16px;
+    margin-top:12px;
     color: #3f1800;
-    font-family: fantasy; 
+    font-weight: bold; 
 }
 
 #lotit2{
@@ -61,6 +63,7 @@ body{
     font-family: fantasy; 
 }
 #div_info{
+    text-align: center;
     box-shadow:  1px 1px 4px 0.5px rgb(153, 153, 153);
     position: relative;
     margin: auto;
@@ -68,18 +71,112 @@ body{
     width: 88%;
     /* border: 2px black solid;  */
     background-color: white;
-    height: 200px;
+    /* height: 200px; */
     top: -12%;
     border-radius: 12px;
     padding-top: 20px;
 }
 
 #u_name{
+    padding: 5px;
     margin: auto;
     width: 80%;
+    border-radius: 8px;
+    border: 1.5px rgb(80, 80, 80) solid;
+    height: 30px;
 }
 
 .ipt-cls{
-    width: 92%;
-    padding: 8px;
+    border: none;
+    width: 75%;
+    padding: 5px;
+    
+    margin-top:2px; 
+    font-size: 16px;
 }
+
+.img_p{
+    
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin: auto;
+    display: block;
+}
+input{
+    outline: none;
+}
+
+#u_pwd{
+    
+    padding: 5px;
+    margin: auto;
+    width: 80%;
+    border-radius: 8px;
+    border: 1.5px rgb(80, 80, 80) solid;
+    height: 30px;
+    margin-top:20px; 
+}
+
+#btn_login{
+    
+    margin: auto;
+    width: 84%;
+    border-radius: 8px;
+    /* border: 1.5px rgb(80, 80, 80) solid; */
+    border: none;
+    height: 36px;
+
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #f3e9df;
+}
+
+
+#btn_zhuce{
+    
+    margin: auto;
+    width: 84%;
+    border-radius: 8px;
+    /* border: 1.5px rgb(80, 80, 80) solid; */
+    border: none;
+    height: 36px;
+
+    margin-top: 15px;
+    font-size: 17px;
+    font-weight: bold;
+    background-color: #f5f0eb;
+    margin-bottom: 20px;
+}
+
+
+#down{
+    width: 100%;
+    text-align: center;
+    position: relative;
+    top: -45px;
+    color: rgb(114, 114, 114);
+}
+
+.i1{
+    margin-right:20px;
+
+}
+
+.i3{
+    margin-left: 20px;
+}
+
+.beback{
+    position: absolute;
+    
+    z-index: 2;
+    float: right;
+    text-decoration: none;
+    right: 5px;
+    top: 5px;
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+}
+

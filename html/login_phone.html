@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" type="text/css" href="../css/login_phone.css"/>
     <script type="text/javascript" src="../js/login_phone.js"></script>
+    <script type="text/javascript" src="../js/jquery-3.5.1.min.js"></script>
     <!-- <script type="text/javascript" src="js/login_phone.js"></script> -->
     <title>用户登录</title>
 </head>
@@ -14,9 +15,11 @@
 
     <div id="main_container">
 
-
+<a href="pwdback_phone.html" class="beback">找回密码</a> 
 
         <div id="bgdown">
+
+            
             
             <div id="logo_div">
                 <img src="../image/logos.png" id="loggimg">
@@ -28,14 +31,38 @@
             
 
         </div>
+        
 
-        <div id="div_info">
+        
 
-            <div id="u_name">
-                <input class="ipt-cls" id="uid" type="text" placeholder="请输入手机号" name="loginName">
+            <div id="div_info">
+                <form action="GET">
+                <div id="u_name">
+                    <img src="../image/phone_user.png" class="img_p">
+                    <input class="ipt-cls" id="uid" type="text" placeholder="请输入手机号" name="loginName">
+                </div>
+
+                <div id="u_pwd">
+                        <img src="../image/pohne_pwd.png" class="img_p">
+                        <input class="ipt-cls" id="upwd" type="password" placeholder="请输入密码" name="loginPwd">
+                </div>
+
+                <input id="btn_login" type="button" value="立即登录" onclick="vib()"/>
+
+                <input id="btn_zhuce" type="button" value="前往注册" onclick="zc()"/>
+                </form>
             </div>
 
-        </div>
+       
+
+
+            <div id="down">
+                <h3>--- 用其他方式登录 ---</h3>
+
+                <img src="../image/qq.png" style="width:55px;height:55px;" class="i1"/>
+                <img src="../image/wechat.png" style="width:55px;height:55px;"/>
+                <img src="../image/weibo.png" style="width:55px;height:55px;" class="i3"/>
+            </div>
 <!-- 
         <form>
             <input type="button" >

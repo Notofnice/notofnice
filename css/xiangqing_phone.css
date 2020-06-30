@@ -1,0 +1,74 @@
+body{
+    padding: 5px;
+}
+
+
+#containers{
+    /* border:1px gray solid; */
+    padding: 5px;
+    /* float: left; */
+    height: 170px;
+    margin-bottom: 10px;
+}
+
+.imgs{
+    width: 120px;
+    float: left;
+}
+
+#booktit{
+    margin-left:15px;
+    font-size: 20px;
+    font-weight: bold;
+
+}
+
+.immm
+{
+    width: 20px;
+    margin-left:20px; 
+    
+}
+
+.clear{
+    clear: both;
+}
+
+.zis{
+    
+    margin-left:20px;
+    display: block;
+    float: left;
+    margin-top: 6px;
+
+    font-size: 14px;
+}
+
+
+#neirong{
+    font-size: 20px;
+    font-weight: bold;
+    /* margin-top: 10px; */
+}
+
+#btm{
+    text-align: center;
+
+}
+
+#titb{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+#books{
+    display: flex;
+}
+
+.imgtui{
+    width: 100px;
+    flex: 1;
+    margin:0 6px 0 6px;
+    border-radius: 8px;
+}
+

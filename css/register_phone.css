@@ -1,0 +1,103 @@
+body{
+    padding: 10px;
+    background-color: #f3e9df;
+}
+
+
+#logo_div{
+    margin-bottom: 18px;
+}
+
+.lotit{
+    font-size: 28px;
+    display: block;
+    margin-top:4px;
+    color: #3f1800;
+    font-weight: bold; 
+    margin-left: 12px;
+}
+
+#lotit2{
+    font-size: 22px;
+    display: block;
+    margin-top: 5px;
+    color: #3f1800;
+    font-family: fantasy; 
+    margin-left: 12px;
+}
+#div_info{
+    
+    text-align: center;
+    box-shadow:  1px 1px 4px 0.5px rgb(153, 153, 153);
+    position: relative;
+    margin: auto;
+    /* height: 80px; */
+    width: 94%;
+    /* border: 2px black solid;  */
+    background-color: white;
+    /* height: 200px; */
+    
+    border-radius: 12px;
+
+    padding-top:5px 
+}
+
+#tit1{
+    font-size: 32px;
+}
+
+#tit2{
+    font-size: 32px;
+    margin-left: 100px;
+}
+
+
+.blok{
+ 
+    margin: auto;
+    width: 80%;
+    padding: 8px;
+    border: 1.5px gray solid;
+    border-radius: 5px;
+
+    margin-top: 15px;
+
+}
+
+.imgs{
+    
+    width: 25px;
+    height: 25px;
+    float: left;
+    
+}
+
+input{
+    outline: none;
+}
+.ipt{
+    border: none;
+    font-size: 16px;
+}
+
+.wg{
+    color: rgb(170, 170, 170);
+    font-size: 14px;
+}
+
+#wgt{
+    margin-top: 15px;
+}
+
+
+#sub{
+    width: 86%;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    height: 36px;
+    background-color: #a86e33;
+    color:white;
+    border: none;
+    border-radius: 8px;
+    font-size: 18px;
+}

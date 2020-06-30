@@ -1,0 +1,76 @@
+body{
+    padding: 0px;
+    margin: 0px;
+}
+
+#main{
+    text-align: center;
+    padding: 0px;
+}
+
+.toxuiang{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-bottom: 15px;
+}
+
+#ids{
+    /* display: block; */
+    padding: 5px;
+    border: 0.5px rgb(177, 177, 177) solid;
+    width: initial;
+    border-radius: 18px;
+    font-size: 12px;
+    margin-top: 15px;
+    color: rgb(177, 177, 177) ;
+}
+
+.lins{
+    height: 12px;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+    margin-top: 30px;
+}
+
+.lins_itm{
+    height: 60px;
+    line-height: 60px;
+    padding-left: 20px;
+    border-bottom: 0.5px gray solid;
+}
+
+.name{
+    font-weight: bold;
+    float: left;
+    color: gray;
+}
+
+.inp_shu{
+    margin-left: -15px;
+    height: 25px;
+    width: 70%;
+    border:none; 
+}
+
+
+.btn-ti{
+    width: 96%;
+    height: 40px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 6px;
+    background-color: rgb(230, 176, 30);
+    color: #fff;
+    font-size: 18px;
+}
+
+
+.btn_back{
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}

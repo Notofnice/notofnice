@@ -1,0 +1,175 @@
+body{
+    padding: 0px;
+    margin: 0px;
+
+    padding-left:15px;
+    padding-right:15px; 
+    background: #fff;
+}
+
+
+
+#bottom_nav{
+    height:60px;
+    text-align: center;
+
+    right: 0; 
+    bottom: 0; 
+    left: 0;
+    position: fixed;
+    z-index: 1; 
+
+
+    background: rgb(255, 244, 224);
+
+    display: flex;
+}
+
+.item-icons{
+    width: 32px;
+    height: 32px;
+    margin: 4px auto 5px;
+}
+
+.as{
+    display:inherit;
+    padding: 7px 0;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    text-decoration: none;
+   
+   
+}
+
+#containers{
+    margin-top: 20px;
+    padding-left: 5px;
+    height: 120px;
+    border-bottom: 1.5px gray dashed;
+}
+
+#touxiang{
+    padding: 5px;
+    border: 1px solid rgb(156, 156, 156);
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    float: left;
+
+}
+
+.imgtou{
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+}
+
+#zi{
+    float: left;
+}
+
+#user_name{
+    /* display: block; */
+    
+    margin-left: 25px;
+    font-size:22px;
+    font-weight: bold;  
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+.clear{
+    clear: both;
+}
+
+#user_info{
+    /*   */
+    margin-left: 25px;
+    color: dimgrey;
+    font-size: 14px;
+    
+    
+}
+
+a{
+    text-decoration: none;
+    -webkit-tap-highlight-color: rgba(255, 255, 255, 0);
+	-webkit-user-select: none;
+	-moz-user-focus: none;
+    -moz-user-select: none; 
+}
+
+
+a:visited {
+    text-decoration: none;
+}
+
+#boxline{
+    margin-top: 15px;
+    display: flex;
+}
+
+.it-i{
+    flex: 1;
+    text-align: center;
+}
+
+
+.imglj{
+    display: block;
+    margin: auto;
+    width: 40px;
+}
+
+.biao{
+    font-size: 14px;
+    color: rgb(158, 158, 158);
+}
+
+#xiabb{
+    margin-top: 20px;
+}
+
+.lists{
+    padding: 15px;
+    
+    height: 32px;
+    line-height: 32px;
+    border-top: 0.2px solid gray;
+   
+}
+
+.wai{
+    border-bottom: 0.2px solid gray;
+}
+
+.items{
+    width: 28px;
+    float: left;
+}
+
+.ztit{
+    margin-left: 20px;
+    font-weight: bold;
+    color: rgb(87, 87, 87);
+}
+
+.zzi2{
+    font-weight: bold;
+    float: right;
+    color: rgb(147, 149, 151);
+}
+
+#btn_ext{
+    width: 100%;
+    margin: auto;
+    margin-top: 30px;
+    height: 45px;
+    background: rgb(202, 140, 25);
+    border: none;
+
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+}
