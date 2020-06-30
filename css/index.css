@@ -46,7 +46,7 @@ body{
     height: 160px;
     width: 125px;
 }
-.book .zuozhe{
+.book .zuozhe,.book .booktitle{
     width: 125px;
     overflow: hidden;
     text-overflow:ellipsis;
