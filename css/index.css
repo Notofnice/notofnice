@@ -1,50 +1,6 @@
 body{
     background-color: rgb(241, 241, 241);
 }
-#head{
-    background-color: #f3e9df;
-    height: 80px;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: nowrap;
-}
-.title{
-    flex: 0 0 300px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 300px;
-    font-size: 40px;
-}
-.title img{
-    width: 40px;
-    margin-right: 5px;
-}
-.daohang{
-    flex: 1 1 auto;
-    display: flex;
-    font-size: 20px;
-}
-.daohang_title{
-    margin-left: 25px;
-}
-.daohang_title:hover{
-    color: rgb(238, 177, 63);
-    cursor: pointer;
-}
-.btn_denglu{
-    flex: 0 0 100px;
-    background-color: aliceblue;
-    border: 1px solid rgb(238, 214, 170);
-    border-radius: 10px;
-    width: 100px;
-    height: 40px;
-    margin-right: 50px;
-}
-
 #middle{
     height: 750px;
     width: 60%;
@@ -89,6 +45,12 @@ body{
 .book img{
     height: 160px;
     width: 125px;
+}
+.book .zuozhe,.book .booktitle{
+    width: 125px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
 }
 .guanggao{
     display: flex;

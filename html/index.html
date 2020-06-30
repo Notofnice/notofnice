@@ -3,24 +3,25 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/reset.css">
-    <link rel="stylesheet" href="../css/index.css">
     <link rel="icon" href="../image/favicon.ico">
     <script src="../js/jquery-3.5.1.min.js"></script>
+    <script src="../js/daohang.js"></script>
+    <link rel="stylesheet" href="../css/index.css">  
     <script src="../js/index.js"></script>
     <title>木帖书屋</title>
 </head>
 <body>
     <div id="head">
-        <div class="title"><img src="../image/logo.png" alt="木帖书屋">木帖书屋</div>
+        <div class="logo_title"><img src="../image/logo.png" alt="木帖书屋">木帖书屋</div>
         <div class="daohang">
-            <div class="daohang_title">首页</div>
-            <div class="daohang_title">书籍分类</div>
-            <div class="daohang_title">图书排行</div>
-            <div class="daohang_title">书籍推荐</div>
-            <div class="daohang_title">木帖书店</div>
-            <div class="daohang_title">木帖书评</div>
+            <div class="daohang_title"><a class="text_title" href="index.html">首页</a></div>
+            <div class="daohang_title"><a class="text_title" href="tushufenlei.html">书籍分类</a></div>
+            <div class="daohang_title"><a class="text_title" href="paihangbang.html">图书排行</a></div>
+            <div class="daohang_title"><a class="text_title" href="shujituijian.html">书籍推荐</a></div>
+            <div class="daohang_title"><a class="text_title" href="shuping.html">木帖书评</a></div>
         </div>
-        <div class="denglu"><button class="btn_denglu">登录/注册</button></div>
+        <div class="denglu"><a href="denglu.html"><button class="btn_denglu">登录/注册</button></a></div>
+        <div class="denglu" style="display: none;"><a href="geren.html"><button class="btn_denglu">个人中心</button></a></div>
     </div>
     <div id="middle">
         <div class="banner" >
@@ -30,16 +31,16 @@
                         <img src="../image/lunbo1.jpg" alt="" class="lunbo">
                     </li>
                     <li class="item">
-                        <img src="/image/lunbo2.png" alt="" class="lunbo">
+                        <img src="../image/lunbo2.png" alt="" class="lunbo">
                     </li>
                     <li class="item">
-                        <img src="/image/lunbo1.jpg" alt="" class="lunbo">
+                        <img src="../image/lunbo1.jpg" alt="" class="lunbo">
                     </li>
                     <li class="item">
-                        <img src="/image/lunbo2.png" alt="" class="lunbo">
+                        <img src="../image/lunbo2.png" alt="" class="lunbo">
                     </li>
                     <li class="item">
-                        <img src="/image/lunbo1.jpg" alt="" class="lunbo">
+                        <img src="../image/lunbo1.jpg" alt="" class="lunbo">
                     </li>
                </ul>
            </div>
@@ -49,7 +50,7 @@
            </div>
            <div class="tab-btn">
            <ul>
-               <li class="btn"></li>
+               <li class="btn active"></li>
                <li class="btn"></li>
                <li class="btn"></li>
                <li class="btn"></li>
@@ -65,38 +66,40 @@
         <div class="message">
             <div class="booksmessage">
                 <div class="books">
+                    <a href="tushuxiangqing.html">
                     <div class="book">
-                        <img src="/image/book1.jpg" alt="">
+                        <img src="../image/book1.jpg" alt="">
                         <div class="booktitle">纵横交错的世界</div>
                         <div class="zuozhe">[英]阿莉·史密斯</div>
                     </div>
+                    </a>
                     <div class="book">
-                        <img src="/image/book1.jpg" alt="">
-                        <div class="booktitle">纵横交错的世界</div>
-                        <div class="zuozhe">[英]阿莉·史密斯</div>
+                        <img src="../image/book2.jpg" alt="">
+                        <div class="booktitle">追风筝的人</div>
+                        <div class="zuozhe">[美]卡勒德·胡赛尼</div>
                     </div>
                     <div class="book">
-                        <img src="/image/book1.jpg" alt="">
-                        <div class="booktitle">纵横交错的世界</div>
-                        <div class="zuozhe">[英]阿莉·史密斯</div>
+                        <img src="../image/book3.jpg" alt="">
+                        <div class="booktitle">小王子</div>
+                        <div class="zuozhe">[法]圣埃克苏佩里</div>
                     </div>
                     <div class="book">
-                        <img src="/image/book1.jpg" alt="">
-                        <div class="booktitle">纵横交错的世界</div>
-                        <div class="zuozhe">[英]阿莉·史密斯</div>
+                        <img src="../image/book4.jpg" alt="">
+                        <div class="booktitle">解忧杂货店</div>
+                        <div class="zuozhe">[日]东野圭吾</div>
                     </div>
                     <div class="book">
-                        <img src="/image/book1.jpg" alt="">
-                        <div class="booktitle">纵横交错的世界</div>
-                        <div class="zuozhe">[英]阿莉·史密斯</div>
+                        <img src="../image/book5.jpg" alt="">
+                        <div class="booktitle">红楼梦</div>
+                        <div class="zuozhe">[清]曹雪芹 著、高鹗 续</div>
                     </div>
                     <div class="book">
-                        <img src="/image/book1.jpg" alt="">
-                        <div class="booktitle">纵横交错的世界</div>
-                        <div class="zuozhe">[英]阿莉·史密斯</div>
+                        <img src="../image/book6.jpg" alt="">
+                        <div class="booktitle">百年孤独</div>
+                        <div class="zuozhe">[哥伦比亚]加西亚·马尔克斯</div>
                     </div>
                 </div>
-                <div class="guanggao"><img src="/image/guanggao.png" alt=""></div>
+                <div class="guanggao"><img src="../image/guanggao.png" alt=""></div>
             </div>
             <div class="paihangbang">
                 <div class="paihangbang_title">畅销图书榜</div>
@@ -116,11 +119,11 @@
         </div>
     </div>
     <div id="bottom">
-        <div>关于我们<img src="/image/gywm.png"></div>
-        <div>联系我们<img src="/image/lxwm.png" alt=""></div>
-        <div>帮助中心<img src="/image/bzzx.png" alt=""></div>
-        <div>移动应用<img src="/image/ydyy.png" alt=""></div>
-        <div>广告支持<img src="/image/ggzc.png" alt=""></div>
+        <div>关于我们<img src="../image/gywm.png"></div>
+        <div>联系我们<img src="../image/lxwm.png" alt=""></div>
+        <div>帮助中心<img src="../image/bzzx.png" alt=""></div>
+        <div>移动应用<img src="../image/ydyy.png" alt=""></div>
+        <div>广告支持<img src="../image/ggzc.png" alt=""></div>
     </div>
 </body>
 </html>
