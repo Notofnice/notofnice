@@ -116,6 +116,7 @@
 }
 .book img{
     width: 180px;
+    height: 250px;
 }
 .book .book_name{
     font-size: 14px;

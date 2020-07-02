@@ -94,10 +94,18 @@
     background-color: #fdfdfd;
     box-shadow: 0 0 5px grey;
     border-radius: 5px;
+    overflow: hidden;
 }
 .books{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    height: 500px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+.books::-webkit-scrollbar{
+    display: none;
 }
 .book{
     margin: 10px 20px;
@@ -109,6 +117,12 @@
 .book img{
     height: 160px;
     width: 120px;
+}
+.book .booktitle,.book .zuozhe{
+    width: 120px;
+    overflow: hidden;
+    text-overflow:ellipsis;
+    white-space: nowrap;
 }
 
 .text_title2{

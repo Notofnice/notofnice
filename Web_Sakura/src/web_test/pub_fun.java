@@ -12,14 +12,14 @@ public class pub_fun {
 	//---------------------------------------------------------------------		
 		public static Connection getConnection(){
 			String driver="com.mysql.jdbc.Driver";
-			String url = "jdbc:mysql://localhost:3307/booksweb?useUnicode=true&amp;characterEncoding=UTF-8";
+			String url = "jdbc:mysql://localhost:3306/z_web?useUnicode=true&characterEncoding=UTF-8";
 			//String  url = "jdbc:mysql://localhost:3306/xy_system";  //服务器
 			Connection con = null;
 			 try {
 		        Class.forName(driver);
 		        try {
 		        	//con = DriverManager.getConnection(url,"root","root");
-		        	con = DriverManager.getConnection(url,"root","000000111yy");
+		        	con = DriverManager.getConnection(url,"root","123456789");
 		        } catch (SQLException e) {
 			         e.printStackTrace();
 			    }

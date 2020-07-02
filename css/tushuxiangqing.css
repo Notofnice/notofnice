@@ -90,6 +90,7 @@
     box-shadow:0 0 3px grey;
     font-size: 14px;
     margin: 10px;
+    
     border-radius: 6px;
     background-color: rgb(238, 238, 238);
 }
@@ -115,10 +116,8 @@
 .shuping_text{
     font-size: 14px;
     margin: 0px 10px 40px 10px;
-    padding-bottom: 20px;
     display: -webkit-box;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 3;
     overflow: hidden;
-    text-indent: 2em;
 }

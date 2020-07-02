@@ -11,3 +11,28 @@ document.querySelectorAll('.text_title').forEach(elem => {
     };
   
   });
+
+function getCookie(key){
+    var cookie = document.cookie;
+    var arr = cookie.split("; ");
+    for(var i=0;i<arr.length;i++){
+        var newArr = arr[i].split("=");
+        if(key == newArr[0]){
+            return newArr[1];
+        }
+    }
+}
+
+$(document).ready(function(){
+    var name = getCookie("name");
+    var denglu = $("#no");
+    var geren = $("#yes");
+    if(name!=null){
+      geren.css('display','block');
+      denglu.css('display','none');
+    }else{
+      geren.css('display','none');
+      denglu.css('display','block');
+    }
+
+});

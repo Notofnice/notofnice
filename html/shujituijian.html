@@ -7,6 +7,7 @@
     <script src="../js/jquery-3.5.1.min.js"></script>
     <script src="../js/daohang.js"></script>
     <link rel="stylesheet" href="../css/shujituijian.css">
+    <script src="../js/shujituijian.js"></script>
     <title>书籍推荐</title>
 </head>
 <body>
@@ -19,124 +20,12 @@
             <div class="daohang_title"><a class="text_title" href="shujituijian.html">书籍推荐</a></div>
             <div class="daohang_title"><a class="text_title" href="shuping.html">木帖书评</a></div>
         </div>
-        <div class="denglu"><a href="denglu.html"><button class="btn_denglu">登录/注册</button></a></div>
-        <div class="denglu" style="display: none;"><a href="geren.html"><button class="btn_denglu">个人中心</button></a></div>
+        <div id="no" class="denglu"><a href="denglu.html"><button class="btn_denglu">登录/注册</button></a></div>
+        <div id="yes" class="denglu" style="display: none;"><a href="geren.html"><button class="btn_denglu">个人中心</button></a></div>
     </div>
     <div class="middle">
         <div class="tuijian_title">热门书籍推荐</div>
         <div class="tuijian_books">
-            <a class="card" href="#!">
-                <div class="front">
-                    <div class="book">
-                        <img class="book_img1" src="../image/tuijian1.jpg" alt="">
-                        <div class="book_message">
-                            <img class="book_img2" src="../image/tuijian1_1.png" alt="">
-                            <div>
-                                <div class="book_name">契诃夫戏剧全集</div>
-                                <div class="book_jianjie">契诃夫，俄罗斯世界级文学巨匠，他的生命只持续了44年，但他的文学作品影响了整整一个时代。他被称为19世纪末期最后一位“批判现实主义艺术大师”。</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="back">
-                    <div>
-                        <div class="back_book">
-                            <img src="../image/tuijian1_1.png" alt="">
-                            <div class="book_message2">
-                                <div class="book_name">契诃夫戏剧全集</div>
-                                <div class="book_zuozhe">作者:[俄]安东尼·巴甫洛维奇·契诃夫</div>
-                                <div class="book_chubanshe">出版社:上海译文出版社</div>
-                                <div class="book_jiage">定价:198元</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card" href="#!">
-                <div class="front">
-                    <div class="book">
-                        <img class="book_img1" src="../image/tuijian1.jpg" alt="">
-                        <div class="book_message">
-                            <img class="book_img2" src="../image/tuijian1_1.png" alt="">
-                            <div>
-                                <div class="book_name">契诃夫戏剧全集</div>
-                                <div class="book_jianjie">契诃夫，俄罗斯世界级文学巨匠，他的生命只持续了44年，但他的文学作品影响了整整一个时代。他被称为19世纪末期最后一位“批判现实主义艺术大师”。</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="back">
-                    <div>
-                        <div class="back_book">
-                            <img src="../image/tuijian1_1.png" alt="">
-                            <div class="book_message2">
-                                <div class="book_name">契诃夫戏剧全集</div>
-                                <div class="book_zuozhe">作者:[俄]安东尼·巴甫洛维奇·契诃夫</div>
-                                <div class="book_chubanshe">出版社:上海译文出版社</div>
-                                <div class="book_jiage">定价:198元</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card" href="#!">
-                <div class="front">
-                    <div class="book">
-                        <img class="book_img1" src="../image/tuijian1.jpg" alt="">
-                        <div class="book_message">
-                            <img class="book_img2" src="../image/tuijian1_1.png" alt="">
-                            <div>
-                                <div class="book_name">契诃夫戏剧全集</div>
-                                <div class="book_jianjie">契诃夫，俄罗斯世界级文学巨匠，他的生命只持续了44年，但他的文学作品影响了整整一个时代。他被称为19世纪末期最后一位“批判现实主义艺术大师”。</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="back">
-                    <div>
-                        <div class="back_book">
-                            <img src="../image/tuijian1_1.png" alt="">
-                            <div class="book_message2">
-                                <div class="book_name">契诃夫戏剧全集</div>
-                                <div class="book_zuozhe">作者:[俄]安东尼·巴甫洛维奇·契诃夫</div>
-                                <div class="book_chubanshe">出版社:上海译文出版社</div>
-                                <div class="book_jiage">定价:198元</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
-            <a class="card" href="#!">
-                <div class="front">
-                    <div class="book">
-                        <img class="book_img1" src="../image/tuijian1.jpg" alt="">
-                        <div class="book_message">
-                            <img class="book_img2" src="../image/tuijian1_1.png" alt="">
-                            <div>
-                                <div class="book_name">契诃夫戏剧全集</div>
-                                <div class="book_jianjie">契诃夫，俄罗斯世界级文学巨匠，他的生命只持续了44年，但他的文学作品影响了整整一个时代。他被称为19世纪末期最后一位“批判现实主义艺术大师”。</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="back">
-                    <div>
-                        <div class="back_book">
-                            <img src="../image/tuijian1_1.png" alt="">
-                            <div class="book_message2">
-                                <div class="book_name">契诃夫戏剧全集</div>
-                                <div class="book_zuozhe">作者:[俄]安东尼·巴甫洛维奇·契诃夫</div>
-                                <div class="book_chubanshe">出版社:上海译文出版社</div>
-                                <div class="book_jiage">定价:198元</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-
             
         </div>
     </div>
